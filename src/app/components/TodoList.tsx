@@ -1,8 +1,10 @@
 import React from 'react'
+import CustomBtn from './CustomBtn'
 
 const TodoList = () => {
   return (
     <div className="my-4">
+      <CustomBtn/>
       <div className="flex items-center mb-4">
         <input
           type="text"
